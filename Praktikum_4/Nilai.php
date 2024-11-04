@@ -7,7 +7,7 @@ class Nilai{
     private $uts;
     private $uas;
 
-    // Setter
+    // Setter (Digunakan untuk mengubah nilai dari suatu atribut)
     public function setTugas($tugas){
         if ($tugas >= 0 && $tugas <= 100){
             $this ->tugas = $tugas;
@@ -26,7 +26,7 @@ class Nilai{
         }
     }
 
-    //Getter
+    //Getter (Digunakan untuk mengambil nilai dari suatu atribut)
     public function getTugas (){
         return $this->tugas;
     }

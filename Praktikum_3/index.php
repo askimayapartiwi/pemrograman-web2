@@ -29,7 +29,6 @@
         $mahasiswaInggris = new MahasiswaAsing ("Ariel Yulian");
         $mahasiswaInggris->ucapSalam();
 ?>
-
 </div>
 </body>
 </html>

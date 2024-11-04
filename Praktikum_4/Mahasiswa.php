@@ -29,6 +29,5 @@ class Mahasiswa extends Orang{
         echo "Nilai Tugas : " . $this->nilai->getTugas() . "<br>";
         echo "Nilai UTS : " . $this->nilai->getUts() . "<br>";
         echo "Nilai UAS : " . $this->nilai->getUas() . "<br>";
-    }
-}
+    }}
 
